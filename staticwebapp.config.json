@@ -1,0 +1,21 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/images/*", "/css/*", "/js/*", "*.svg", "*.png", "*.jpg", "*.gif", "*.json"]
+  },
+  "mimeTypes": {
+    ".svg": "image/svg+xml"
+  },
+  "routes": [
+    {
+      "route": "/privacy.html",
+      "serve": "/privacy.html",
+      "statusCode": 200
+    },
+    {
+      "route": "/terms.html",
+      "serve": "/terms.html",
+      "statusCode": 200
+    }
+  ]
+}
