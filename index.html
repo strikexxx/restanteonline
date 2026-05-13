@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Paraíso | Experiencia Gastronómica en Ecuador</title>
+    <meta name="description" content="Descubre Restaurante Paraíso en Ecuador. Una experiencia culinaria única con ingredientes locales e internacionales. Reserva tu mesa hoy.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">Restaurante <span>Paraíso</span></a>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Un Paraíso de Sabores en Ecuador</h1>
+            <p>Donde la alta cocina se encuentra con la tradición. Disfruta de una velada inolvidable en un ambiente elegante y acogedor.</p>
+            <a href="#contacto" class="btn btn-primary">Reserva tu Mesa</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="nosotros" class="section about">
+        <div class="about-image">
+            <img src="images/hero.png" alt="Interior elegante del restaurante">
+        </div>
+        <div class="about-text">
+            <h2 class="section-title">Nuestra Historia</h2>
+            <p>Fundado con la pasión de ofrecer lo mejor de la gastronomía mundial con un toque local, <strong>Restaurante Paraíso</strong> se ha convertido en un referente culinario en Ecuador. Nos enorgullece utilizar ingredientes frescos y de la más alta calidad.</p>
+            <p>Cada plato es una obra de arte diseñada para deleitar tus sentidos. Nuestro equipo de chefs internacionales trabaja incansablemente para garantizar que cada visita sea una celebración del buen gusto.</p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="experiencia" class="section features">
+        <h2 class="section-title">La Experiencia Paraíso</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fas fa-utensils feature-icon"></i>
+                <h3>Alta Cocina</h3>
+                <p>Menús de degustación y platos a la carta elaborados con técnicas culinarias de vanguardia y los mejores ingredientes.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-wine-glass-alt feature-icon"></i>
+                <h3>Cava Exclusiva</h3>
+                <p>Una selección de los mejores vinos del mundo, perfectamente maridados por nuestro sommelier experto.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-concierge-bell feature-icon"></i>
+                <h3>Servicio Premium</h3>
+                <p>Atención personalizada y cuidado en cada detalle para hacerte sentir verdaderamente especial.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="section contact">
+        <h2 class="section-title">Reserva tu Experiencia</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Información de Contacto</h3>
+                <p style="margin-bottom: 2rem; color: #ccc;">Estamos ubicados en el corazón de Ecuador. Contáctanos para reservas o eventos especiales.</p>
+                
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt info-icon"></i>
+                    <div>
+                        <h4>Dirección</h4>
+                        <p>Av. Amazonas y Naciones Unidas<br>Quito, Ecuador</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-phone-alt info-icon"></i>
+                    <div>
+                        <h4>Teléfono</h4>
+                        <p>+593 2-255-0000</p>
+                        <p>+593 99-123-4567</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-envelope info-icon"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>reservas@restauranteparaiso.ec</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-clock info-icon"></i>
+                    <div>
+                        <h4>Horario</h4>
+                        <p>Lun - Sab: 12:30 PM - 11:00 PM<br>Dom: 12:30 PM - 9:00 PM</p>
+                    </div>
+                </div>
+            </div>
+            
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Nombre Completo" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Correo Electrónico" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" class="form-control" placeholder="Teléfono" required>
+                </div>
+                <div class="form-group">
+                    <select class="form-control" required>
+                        <option value="" disabled selected>Número de Personas</option>
+                        <option value="1">1 Persona</option>
+                        <option value="2">2 Personas</option>
+                        <option value="3">3 Personas</option>
+                        <option value="4">4 Personas</option>
+                        <option value="5+">5 o más Personas</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="date" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" placeholder="Mensaje Adicional o Petición Especial"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Solicitar Reserva</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="privacy.html">Políticas de Privacidad</a>
+            <a href="terms.html">Términos y Condiciones</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+        <div class="footer-copy">
+            &copy; 2026 Restaurante Paraíso Ecuador. Todos los derechos reservados.
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
